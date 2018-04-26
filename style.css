@@ -1,0 +1,95 @@
+/*------------------ css reset -------------------------*/
+
+* {
+    margin: 0;
+    font-size: 100%;
+}
+
+body {
+    min-width: 100vh;
+    line-height: 1.5em;
+    background-color: black;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    max-height: 100vh;
+}
+
+.content {
+  max-width: 940px;
+  width: 100%;  
+  margin: auto;
+  padding: 40px 2% 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+    margin-top: 2em;
+    width: 50%;
+    height: 60vh;
+    background-color: white;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 4em;
+    align-self: left;
+    line-height: 1em;
+    color: white;
+    margin-left: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    color: white;
+    align-self: left;
+    margin-left: 6.5em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1em;
+    text-align: center;
+}
+
+button {
+  margin-top: 3em;
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: #fff;
+  border: 2px solid $green;
+  color:$green;
+  letter-spacing:1px;
+  text-shadow:0;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  
+}
+  button:hover {
+    color: white;
+    background-color: black;
+    
+  }
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+}
