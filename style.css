@@ -16,14 +16,14 @@ body {
 }
 
 .content {
-  max-width: 940px;
-  width: 100%;  
-  margin: auto;
-  padding: 40px 2% 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 2% 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -62,34 +62,25 @@ p {
 }
 
 button {
-  margin-top: 3em;
-  outline:none;
-  height: 40px;
-  text-align: center;
-  width: 150px;
-  border-radius:5px;
-  background: #fff;
-  border: 2px solid;
-  letter-spacing:1px;
-  text-shadow:0;
-  cursor: pointer;
-  transition: all 0.25s ease;
-  font-family: 'Montserrat', sans-serif;
-  
-}
-  button:hover {
-    color: white;
-    background-color: black;
-    
-  }
+    margin-top: 3em;
+    outline: none;
+    height: 40px;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    background: #fff;
+    border: 2px solid;
+    letter-spacing: 1px;
+    text-shadow: 0;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    font-family: 'Montserrat', sans-serif;
 }
 
-    
-    
-    
-    
-    
-    
-    
-    
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+
 }
